@@ -1,0 +1,138 @@
+@font-face {
+    font-family: iransans;
+    src: url(../font/iransansweb.ttf);
+    font-weight: normal;
+}
+
+:root {
+    --color1: #f8f2e4;
+    --color2: #f7931a;
+    --color3: #edf5f9;
+    --color4: #1f88b7;
+    --color5: #4d4d4d;
+    --color6: #ffffff;
+    --color-7: #1482b3;
+}
+
+body {
+    font-family: iransans, sans-serif !important;
+    background-color: var(--color6);
+}
+
+.bg-color1 {
+    background-color: var(--color1) !important;
+}
+
+.bg-color2 {
+    background-color: var(--color2) !important;
+}
+
+.bg-color2-50 {
+    background-color: rgba(247, 147, 26,0.2) !important;
+}
+.border-color2{
+    border: solid 2px var(--color2) !important;
+}
+
+.border-right-2px {
+    border-right: solid 3px var(--color1) !important;
+}
+
+.border-serach {
+    border-radius: 30px !important;
+    background-color: var(--color6) !important;
+    color: var(--color5) !important;
+}
+
+.border-serach>input {
+    border-radius: 30px !important;
+}
+
+.text-color4 {
+    color: var(--color4) !important;
+}
+
+.text-color2 {
+    color: var(--color2) !important;
+}
+
+.text-color5 {
+    color: var(--color5) !important;
+    text-decoration: none !important;
+}
+
+.border-top-5 {
+    border: none !important;
+    border-top: solid 4px var(--color6) !important;
+}
+
+.Path_4 {
+    fill: #008000 !important;
+    color: #008000 !important;
+}
+
+.Path_5 {
+    fill: #ff0000 !important;
+    color: #ff0000 !important;
+}
+
+.border2-bottom-radius {
+    border-radius: 0 0 30px 30px !important;
+}
+
+.haed-image {
+    width: 100% !important;
+    height: 300px !important;
+    /* padding: 50% !important; */
+    background-image: url(../images/close-up-businessman-with-digital-tablet.png) !important;
+    background-position: center !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0 !important;
+}
+
+.profile {
+    position: absolute !important;
+    z-index: 999 !important;
+    margin-top: 100px !important;
+}
+
+.number-border {
+    color: var(--color4) !important;
+    border-bottom: solid 4px var(--color4) !important;
+}
+
+.border-10 {
+    border-radius: 10px !important;
+}
+
+.border-bottom-10 {
+    border-radius: 0 0 15px 15px !important;
+}
+
+.shadow-color3 {
+    box-shadow: 0 0 15px rgba(31, 136, 183,0.2);
+}
+
+.border-radius-top-10 {
+    border-radius: 15px 15px 0 0 !important;
+}
+
+.bg-color4-50 {
+    background-color: rgba(31, 135, 184, 0.1) !important;
+}
+
+.font-8 {
+    font-size: 0.8em !important;
+    line-height: 2em !important;
+}
+
+.bg-color7 {
+    background-color: var(--color-7) !important;
+}
+.border-bottom-color4{
+    border-bottom: solid 3px var(--color4) !important;
+}
+.font-mini{
+    font-size: 0.6em !important;
+}
