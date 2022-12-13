@@ -28,9 +28,10 @@ body {
 }
 
 .bg-color2-50 {
-    background-color: rgba(247, 147, 26,0.2) !important;
+    background-color: rgba(247, 147, 26, 0.2) !important;
 }
-.border-color2{
+
+.border-color2 {
     border: solid 2px var(--color2) !important;
 }
 
@@ -111,7 +112,7 @@ body {
 }
 
 .shadow-color3 {
-    box-shadow: 0 0 15px rgba(31, 136, 183,0.2);
+    box-shadow: 0 0 15px rgba(31, 136, 183, 0.2);
 }
 
 .border-radius-top-10 {
@@ -130,9 +131,15 @@ body {
 .bg-color7 {
     background-color: var(--color-7) !important;
 }
-.border-bottom-color4{
+
+.border-bottom-color4 {
     border-bottom: solid 3px var(--color4) !important;
 }
-.font-mini{
+
+.font-mini {
     font-size: 0.6em !important;
+}
+
+.border-top-radius {
+    border-radius: 15px 15px 0 0 !important;
 }
